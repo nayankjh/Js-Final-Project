@@ -314,8 +314,10 @@ $(document).ready(function() {
       http.open("GET", urlLink, true);
       http.send();
     }
+    
     cartCount();
     getDataForLocalStorage();
+    alert("Item added");
   });
   
   
